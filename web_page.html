@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        body {
+            background-image: url('https://e0.pxfuel.com/wallpapers/344/185/desktop-wallpaper-computer-desk-background-table.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            align-items: center;
+            font-family: Tahoma;
+            color: #5C4033;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        tr {
+            height: 50px;
+            width: 400px;
+            text-align: center;
+            vertical-align: middle;
+
+            min-height: 50px;
+            min-width: 400px;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+ <table class="center">
+        <tr></tr>
+        <tr>
+            <td>
+                <h1>Start Broadcast:</h1>
+                <form id="broadcastForm">
+                <label for="broadcastName">Broadcast Name:</label>
+                <input type="text" id="broadcastName" name="broadcastName" required>
+                <button type="submit">Start Broadcast</button>
+                </form>
+
+            </td>
+
+        </tr>
+
+        <tr></tr>
+     <tr>
+            <td>
+                <h1>Currently Broadcasting:</h1>
+            </td>
+     </tr>
+
+    </table>
+
+</body>
+</html>
